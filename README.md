@@ -24,8 +24,9 @@ mvn spring-boot:run
 
 | Method | Endpoint | Description |
 
- GET | /analytics/top-merchant | Top merchant by transaction volume |
- GET | /analytics/monthly-active-merchants | Unique active merchants per month |
- GET | /analytics/product-adoption | Merchant count per product |
- GET | /analytics/kyc-funnel | KYC funnel channel stage counts |
- GET | /analytics/failure-rates | Failure rate per product |
+##
+ 1. GET | /analytics/top-merchant | Top merchant by transaction volume |
+ 2. GET | /analytics/monthly-active-merchants | Unique active merchants per month |
+ 3. GET | /analytics/product-adoption | Merchant count per product |
+ 4. GET | /analytics/kyc-funnel | KYC funnel channel stage counts |
+ 5. GET | /analytics/failure-rates | Failure rate per product |
