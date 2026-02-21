@@ -23,9 +23,9 @@ mvn spring-boot:run
 ## Endpoints given for the project are :
 
 | Method | Endpoint | Description |
-|        |          |             |
-| GET | /analytics/top-merchant | Top merchant by transaction volume |
-| GET | /analytics/monthly-active-merchants | Unique active merchants per month |
-| GET | /analytics/product-adoption | Merchant count per product |
-| GET | /analytics/kyc-funnel | KYC funnel channel stage counts |
-| GET | /analytics/failure-rates | Failure rate per product |
+
+ GET | /analytics/top-merchant | Top merchant by transaction volume |
+ GET | /analytics/monthly-active-merchants | Unique active merchants per month |
+ GET | /analytics/product-adoption | Merchant count per product |
+ GET | /analytics/kyc-funnel | KYC funnel channel stage counts |
+ GET | /analytics/failure-rates | Failure rate per product |
